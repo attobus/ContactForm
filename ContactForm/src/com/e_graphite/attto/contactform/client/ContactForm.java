@@ -28,12 +28,20 @@ import com.google.gwt.user.client.Timer;
  */
 public class ContactForm implements EntryPoint {
 
+	// Url to submit script
     private static final String URL = "submit.php";
+    
+    // OK response string of submit script
     private static final String OK_RESPONSE = "Sent";
 
+    // request builder 
     private RequestBuilder builder;
+    
+    // elements of submit and reset buttons
     private InputElement submitElement, resetElement;
+    // elements of ok and error messages
     private Element okMessageElement, errorMessageElement;
+    // height of message string in pixels
     private int height;
 
     /**
