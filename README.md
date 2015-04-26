@@ -1,13 +1,11 @@
 # ContactForm
-The submit script for "Contact Me" form of "Read Only" template from html5up.net
+### The submit script for "Contact Me" form of "Read Only" template from html5up.net
 
 To add the ability of sending data with animated responce to "Read Only" template:
 
-1. Put the content of contactform.zip into directory which contains index.html of template.
-
-2. Add <script type="text/javascript" language="javascript" src="contactform/contactform.nocache.js"></script> inside <head> in index.html
- 
-3. Edit submit.php. Put your e-mail address at 2nd line inside ''.
+- Put the content of contactform.zip into directory which contains index.html of template.
+- Add <script type="text/javascript" language="javascript" src="contactform/contactform.nocache.js"></script> inside <head> in index.html
+- Edit submit.php. Put your e-mail address at 2nd line inside ''.
 
 If you want change messages and intervals add this inside <head>:
 
